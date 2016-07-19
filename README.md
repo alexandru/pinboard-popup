@@ -33,3 +33,7 @@ extensions from people I don't know or pay in some capacity.
 
 Therefore I've built my own Chrome extension. All it does is to activate
 the official bookmarklet for adding a website to Pinboard.
+
+**Pro-tip** - you can convert any bookmarklet to a Chrome extension by
+yourself, see:
+[sandbox.self.li/bookmarklet-to-extension/](https://sandbox.self.li/bookmarklet-to-extension/).
