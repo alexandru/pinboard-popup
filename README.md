@@ -37,3 +37,9 @@ the official bookmarklet for adding a website to Pinboard.
 **Pro-tip** - you can convert any bookmarklet to a Chrome extension by
 yourself, see:
 [sandbox.self.li/bookmarklet-to-extension/](https://sandbox.self.li/bookmarklet-to-extension/).
+
+## LICENSE
+
+Copyright &copy;2016 Alexandru Nedelcu, some rights reserved.
+
+Licensed under GPLv3. See 'LICENSE.txt' for details.
