@@ -6,7 +6,7 @@
  },
  "name": "Pinboard Popup",
  "short_name": "Pinboard Popup",
- "description": "Opens the standard Pinboard Popup with Tags",
+ "description": "Opens the standard Pinboard popup for bookmarking the current page",
  "homepage_url": "https://github.com/alexandru/pinboard-popup",
  "icons": {
      "16": "icon-16.png",
@@ -21,6 +21,15 @@
      "http://*/*",
      "https://*/*"
  ],
- "version": "0.1",
- "manifest_version": 2
+ "version": "0.3",
+ "manifest_version": 2,
+ "commands": {
+    "trigger-popup": {
+      "suggested_key": {
+        "default": "Alt+Shift+D",
+        "mac": "Command+Shift+D"
+      },
+      "description": "Open Pinboard dialog for bookmarking the current page"
+    }
+ }
 }
