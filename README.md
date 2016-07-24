@@ -1,9 +1,23 @@
 # Pinboard Popup
 
-Chrome extension that triggers the Pinboard bookmarklet for
-bookmarking a website in Pinboard, [see it in the Chrome Web Store](https://chrome.google.com/webstore/detail/pinboard-popup/pfbacfpikpbgbhecjipbhdhhbpglljne).
+Browser extension that triggers the Pinboard bookmarklet for
+bookmarking a website in Pinboard.
 
-## Usage
+Available for:
+
+- [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pinboard-bookmark/)
+- [Chrome](https://chrome.google.com/webstore/detail/pinboard-popup/pfbacfpikpbgbhecjipbhdhhbpglljne)
+
+## Firefox Usage
+
+You can install it from [Firefox Add-ons](https://chrome.google.com/webstore/detail/pinboard-popup/pfbacfpikpbgbhecjipbhdhhbpglljne).
+
+Keyboard shortcut:
+
+- Linux/Windows: *Alt+Shift+D*
+- Chrome: *Command+Shift+D*
+
+## Chrome Usage
 
 You can install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/pinboard-popup/pfbacfpikpbgbhecjipbhdhhbpglljne),
 or if you're inclined, you can install it manually, like this:
@@ -31,12 +45,17 @@ shortcuts to simple bookmarks. And looking at the available Chrome extensions
 for Pinboard I couldn't see any official one and I don't trust Chrome
 extensions from people I don't know or pay in some capacity.
 
-Therefore I've built my own Chrome extension. All it does is to activate
+For Firefox, the official extension is fine on OS X, however on Linux the
+keyboard shortcut no longer works.
+
+Therefore I've built my own extension. All it does is to activate
 the official bookmarklet for adding a website to Pinboard.
 
 **Pro-tip** - you can convert any bookmarklet to a Chrome extension by
 yourself, see:
 [sandbox.self.li/bookmarklet-to-extension/](https://sandbox.self.li/bookmarklet-to-extension/).
+This doesn't work so well for Firefox, because Firefox doesn't allow
+opening of popups, like the Pinboard bookmarklet does.
 
 ## LICENSE
 

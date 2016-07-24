@@ -2,10 +2,10 @@
  "background": {"scripts": ["background.js"]},
  "browser_action": {
    "default_icon": "icon-256.png",
-   "default_title": "Pinboard Popup"
+   "default_title": "Pinboard Bookmark"
  },
- "name": "Pinboard Popup",
- "short_name": "Pinboard Popup",
+ "name": "Pinboard Bookmark",
+ "short_name": "Pinboard Bookmark",
  "description": "Opens the standard Pinboard popup for bookmarking the current page",
  "homepage_url": "https://github.com/alexandru/pinboard-popup",
  "icons": {
@@ -21,7 +21,7 @@
      "http://*/*",
      "https://*/*"
  ],
- "version": "0.1",
+ "version": "0.2",
  "manifest_version": 2,
  "commands": {
     "trigger-popup": {
