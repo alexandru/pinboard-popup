@@ -10,7 +10,7 @@ Available for:
 
 ## Firefox Usage
 
-You can install it from [Firefox Add-ons](https://chrome.google.com/webstore/detail/pinboard-popup/pfbacfpikpbgbhecjipbhdhhbpglljne).
+You can install it from [Firefox Add-ons](https://addons.mozilla.org/en-US/firefox/addon/pinboard-bookmark/).
 
 Keyboard shortcut:
 
