@@ -22,7 +22,7 @@
      "https://*/*"
  ],
  "version": "0.4",
- "manifest_version": 3,
+ "manifest_version": 2,
  "commands": {
     "trigger-popup": {
       "suggested_key": {
