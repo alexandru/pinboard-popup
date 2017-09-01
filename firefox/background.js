@@ -3,9 +3,9 @@ function windowGetSelection(callback) {
   chrome.tabs.executeScript({code: code}, callback);
 }
 
-function triggerPopup2(tab) {
-  chrome.tabs.executeScript(tab.id, {file: "bookmarklet.js"});
-}
+// function triggerPopup2(tab) {
+//   chrome.tabs.executeScript(tab.id, {file: "bookmarklet.js"});
+// }
 
 function triggerPopup(tab) {
   windowGetSelection(function (d) {
@@ -30,7 +30,11 @@ chrome.browserAction.onClicked.addListener(function (tab) {
 
 chrome.commands.onCommand.addListener(function (command) {
   if (command == "trigger-popup")
-    chrome.tabs.query({active: true}, function (tabs) {
+    chrome.tabs.query({
+      active: true,
+      currentWindow: true
+    }, function (tabs) {
+      console.log(tabs);
       triggerPopup(tabs[0]);
     });
 });

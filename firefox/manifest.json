@@ -21,13 +21,13 @@
      "http://*/*",
      "https://*/*"
  ],
- "version": "0.4",
- "manifest_version": 2,
+ "version": "0.6",
+ "manifest_version": 3,
  "commands": {
     "trigger-popup": {
       "suggested_key": {
         "default": "Alt+Shift+D",
-        "mac": "Ctrl+D"
+        "mac": "MacCtrl+D"
       },
       "description": "Open Pinboard dialog for bookmarking the current page"
     }
