@@ -15,7 +15,7 @@ You can install it from [Firefox Add-ons](https://addons.mozilla.org/en-US/firef
 Keyboard shortcut:
 
 - Linux/Windows: *Alt+Shift+D*
-- Chrome: *Command+Shift+D*
+- Mac: *Control+D*
 
 ## Chrome Usage
 
