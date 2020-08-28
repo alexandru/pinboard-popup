@@ -1,0 +1,23 @@
+{
+	"name": "pinboard-popup",
+	"version": "0.4.0",
+	"description": " Opens the standard Pinboard popup for bookmarking the current page ",
+	"author": "alexelcu",
+	"scripts": {
+		"bundle-firefox": "web-ext -s firefox -a dist/firefox build --overwrite-dest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alexandru/pinboard-popup/"
+	},
+	"bugs": {
+		"url": "https://github.com/alexandru/pinboard-popup//issues"
+	},
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"webextensions"
+	],
+	"devDependencies": {
+		"web-ext": "^4.3.0"
+	}
+}
